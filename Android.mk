@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter CPH1859,$(TARGET_DEVICE)),)
+ifneq ($(filter RMX1831,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ImsService
